@@ -11,7 +11,7 @@ public ExamplePlayerTimer(playerid)
 {
 	new df[64];
 
-	PlayerPause[playerid] = PlayerPause[playerid] + 1; // Каждую секунду добавляем для игрока секунду
+	PlayerPause[playerid] = PlayerPause[playerid] + 1; // Every second we add a second for the player
 	
 	// If he's on pause, OnPlayerUpdate will not work, therefore 0 will not be installed
 	if(PlayerPause[playerid] != 0)
